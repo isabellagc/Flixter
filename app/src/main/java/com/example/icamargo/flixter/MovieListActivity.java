@@ -57,6 +57,7 @@ public class MovieListActivity extends AppCompatActivity {
         // intiitalize the adapter -- movie array cannot be reinitialized after this point
         adapter = new MovieAdapter(movies);
 
+
         //resolve the recycler view and connect a layout manager and the adapter
         rvMovies = (RecyclerView) findViewById(R.id.rvMovies);
         rvMovies.setLayoutManager(new LinearLayoutManager(this));
